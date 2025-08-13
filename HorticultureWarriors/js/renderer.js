@@ -1,15 +1,19 @@
-// game/js/renderer.js
-const tilesPerRow = 4;
-export function renderMap(ctx, map, tileLookup, tileset, tileSize, tilesPerRow) {
+export function renderMap(ctx, mapData, tilesets, tileSize, tilesPerRow) {
+  const map = mapData.map;
+  const tileLookup = mapData.tileLookup;
+
   for (let row = 0; row < map.length; row++) {
     for (let col = 0; col < map[row].length; col++) {
-      let code = map[row][col];
-      let tileIndex = tileLookup[code];
+      const code = map[row][col];
+      const tileData = tileLookup[code];
 
-      if (tileIndex === undefined) continue; // skip if no mapping
+      if (!tileData) continue; // Skip unmapped tiles
 
-      let sx = (tileIndex % tilesPerRow) * tileSize;
-      let sy = Math.floor(tileIndex / tilesPerRow) * tileSize;
+      const tileset = tilesets[tileData.tileset]; // Choose tileset per tile
+      const tileIndex = tileData.index;
+
+      const sx = (tileIndex % tilesPerRow) * tileSize;
+      const sy = Math.floor(tileIndex / tilesPerRow) * tileSize;
 
       ctx.drawImage(
         tileset,
