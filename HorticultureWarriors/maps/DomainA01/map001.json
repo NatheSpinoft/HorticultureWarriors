@@ -39,6 +39,16 @@
   "1004": { "tileset": "tilesetA", "index": 11 },
 
   "4001": { "tileset": "tilesethouse", "index": 0 },
-  "4002": { "tileset": "tilesethouse", "index": 1 }
+  "4002": { "tileset": "tilesethouse", "index": 1 },
+  "4003": { "tileset": "tilesethouse", "index": 2 },
+  "4004": { "tileset": "tilesethouse", "index": 3 },
+
+  "4005": { "tileset": "tilesethouse", "index": 4 },
+  "4006": { "tileset": "tilesethouse", "index": 5 },
+  "4007": { "tileset": "tilesethouse", "index": 6 },
+  "4008": { "tileset": "tilesethouse", "index": 7 }, 
+
+  "4009": { "tileset": "tilesethouse", "index": 8 },
+  "4010": { "tileset": "tilesethouse", "index": 9 }
 }
 }

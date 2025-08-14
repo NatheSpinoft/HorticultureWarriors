@@ -24,7 +24,9 @@ let playerY = 0;
 const playerSpeed = 1;
 
 // Tiles that block movement
-const impassableTiles = new Set([2001, 2002, 2003, 2004]);
+const impassableTiles = new Set([2001, 2002, 2003, 2004, 4001, 4002, 4003, 4004, 4005, 4006, 4007, 4009, 4001,
+  4010
+  ]);
 
 // Maps dictionary
 const maps = {
