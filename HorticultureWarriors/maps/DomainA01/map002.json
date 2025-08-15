@@ -21,7 +21,6 @@
 
 ],
 
-
 "tileLookup": {
   "3001": { "tileset": "tilesetA", "index": 0 },
   "3002": { "tileset": "tilesetA", "index": 1 },
@@ -49,7 +48,25 @@
   "4008": { "tileset": "tilesethouse", "index": 7 },
 
   "4009": { "tileset": "tilesethouse", "index": 8 },
-  "4010": { "tileset": "tilesethouse", "index": 9 }
+  "4010": { "tileset": "tilesethouse", "index": 9 },
+
+  "4100": { "tileset": "tilesetinhouse", "index": 0 },
+  "4101": { "tileset": "tilesetinhouse", "index": 1 },
+  "4102": { "tileset": "tilesetinhouse", "index": 2 },
+  "4103": { "tileset": "tilesetinhouse", "index": 3 },
+  
+  "4104": { "tileset": "tilesetinhouse", "index": 4 },
+  "4105": { "tileset": "tilesetinhouse", "index": 5 },
+  "4106": { "tileset": "tilesetinhouse", "index": 6 },
+  "4107": { "tileset": "tilesetinhouse", "index": 7 },
+
+  "4108": { "tileset": "tilesetinhouse", "index": 8 },
+  "4109": { "tileset": "tilesetinhouse", "index": 9 },
+  "4110": { "tileset": "tilesetinhouse", "index": 10 },
+  "4111": { "tileset": "tilesetinhouse", "index": 11 }
+
+
+
 }
 
 }
