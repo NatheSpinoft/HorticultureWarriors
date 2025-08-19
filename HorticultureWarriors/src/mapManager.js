@@ -1,6 +1,6 @@
 // mapManager.js
 import { maps, tileSize, tilesPerRow, impassableTiles, transitions, specialTransitions } from './constants.js';
-import { renderMap } from './js/renderer.js';
+import { renderMap } from '../js/renderer.js';
 import { tilesets, playerAnimateImg } from './assets.js';
 
 let mapData = null;

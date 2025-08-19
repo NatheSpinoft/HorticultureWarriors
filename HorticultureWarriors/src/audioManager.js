@@ -23,3 +23,6 @@ export function stopBackgroundMusic() {
     backgroundMusic.pause();
     backgroundMusic.currentTime = 0;
 }
+
+window.addEventListener('keydown', () => playBackgroundMusic(true, 0.3), { once: true });
+window.addEventListener('click', () => playBackgroundMusic(true, 0.3), { once: true });
